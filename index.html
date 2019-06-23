@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Product Landing Page">
+    <meta name="keywords" content="fcc, freecodecamp, product landing page, boostrap, html5, css3">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7ecfbc7620.js"></script>    
+    <link rel="stylesheet" href="custom.css">
+
+    <title>Coffee</title>
+  </head>
+  <body data-spy="scroll" data-target="#nav-bar" data-offset="90">
+       <!--navigation bar-->
+        <div id="header">
+        <nav id="nav-bar" class="navbar  navbar-light bg-light fixed-top">
+            <a id="header-img" class="navbar-brand" href='#'>Stay Caffeinated</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#facts">Facts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coffeeTypes">Coffee Types</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Videos</a>
+                    </li>
+                </ul>
+               
+        </nav>
+        </div>
+       <!--jumbotron-->
+        <div class="jumbotron" >  
+                <h1 class="display-4 text-center" >Stay Caffeinated</h1>
+                <p class="lead text-center" >No,I don't really "rise and shine". Most days,I just
+                caffeinate and then hope for the best.</p>
+                <hr class="my-4">
+
+                <p id="form" class="h5 text-center" >Want to know more? Join our Mailing list!</p>
+                <div class="input-group justify-content-center">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input id="email" type="email" class="form-control col-sm-3" placeholder="Your Email">
+                    <button id="submit" class="btn btn-primary my-2 my-sm-0 ">SignUp</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <!--facts-->
+                <div class="row" >
+                        <div class="col-sm-1 d-flex justify-content-start">                    
+                        <i class="fas fa-mug-hot fa-3x " ></i>
+                        </div> 
+                            <div class="col-sm-10 text-left">
+                            <p id="facts" class="h4">Benefits</p>
+                            <p>The potential health benefits associated with drinking coffee include protecting against
+                            type 2 diabetes, Parkinson's disease, liver disease, liver cancer, and promoting a healthy heart.</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-1 d-flex justify-content-start">                    
+                        <i class="fab fa-nutritionix fa-3x " ></i>
+                        </div> 
+                            <div class="col-sm-10 text-left">
+                            <p class="h4">Nutrition</p>
+                            <p>TRegular black coffee (without milk or cream) has a very low calorie count. A typical cup 
+                                of black coffee only contains around 2 calories.</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-1 d-flex justify-content-start">                    
+                        <i class="fas fa-exclamation-triangle fa-3x " ></i>
+                        </div> 
+                            <div class="col-sm-10 text-left">
+                            <p class="h4">Risk</p>
+                            <p>Drinking too much coffee can result in some very unpleasant adverse effects. According to a study
+                                 by researchers at the University of Oklahoma, "caffeine can cause anxiety symptoms in normal individuals,
+                                  especially in vulnerable patients, like those with pre-existing anxiety disorders.</p>
+                        </div><br>
+                </div>
+
+                <!--coffee types-->
+                <div id="coffeeTypes" class="card-columns">                    
+                        <div class="card text-white bg-dark text-center"  >
+                            <img class="card-img-top" src="img/coffee-affogato.jpg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">AFFOGATO COFFEE</h5>
+                                <p class="card-text">Affo what? Affogato coffee is mainly found in Italy and serves as a drink for the hot summer days. 
+                                    Often times Affogato is also ordered as a dessert.It’s rather simple to make it. Scoop one or two spoons of vanilla 
+                                    ice-cream into a glas tumbler and pour a single or double espresso shot over the ice-cream. Surprise your guests and serve after lunch! </p>
+                            </div>
+                        </div>  
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffee-americano.jpg" width="256" height="200" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">AMERICANO COFFEE</h5>
+                                <p class="card-text">Americano coffee, or a long black coffee is 2rd’s of water and 1rd of espresso shot. Americano is an espresso drink using water instead
+                                     of milk. Commonly thought, the name derives from “American Coffee” during World War II when Americans added water to their espresso to create a larger 
+                                     coffee that they were accustomed to back home. 
+                                    Simply boil water (around 200ml or 6 oz), let it rest for a minute (don’t use the water while it’s boiling) and pour in a cup or mug. Then prepare 1 shot of 
+                                    espresso (75ml / 2 oz or more if you like it stronger) and pour on top of the hot water.  </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark text-center" >
+                            <img class="card-img-top" src="img/coffee-cappuccino.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">CAPPUCCINO COFFEE</h5>
+                                <p class="card-text">Cappuccino is thought to be named after monks as their robes resembled the color of the coffee. A cappuccino is similar to a Café Latte however the main
+                                     difference is that it is rather served in a cup instead of a glas tumbler and it usually has foam and chocolate powder on top.   Prepare 1 shot of espresso and pour it into
+                                      a cup. Then add steamed milk (5 oz or 150ml) and foam from the steamed milk on top. Finish it off by sprinkling chocolate powder on top. Voilá! </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffe-latte.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">CAFÉ LATTE</h5>
+                                <p class="card-text">Café Latte or sometimes simply referred to as “latte” derives from the italian meaning “milk coffee”. Most commonly a latte also served with “latte art”
+                                        in where the barista will try to create a pattern while pouring the milk on top of the espresso. Often this will be a flower or a heart shape. Latte is also a popular choice 
+                                        to drink with soy or other milk types.To prepare a latte use a cup or tumbler and pour 1 espresso shot in. Then steam milk and pour on top (5 oz or 150ml). Finish off by 
+                                        putting some micro foam on top with a spoon. </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffee-double-espresso.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">DOUBLE ESPRESSO</h5>
+                                <p class="card-text">A double espresso is a strong coffee simply consisting of two espresso shots (5 oz or 150ml). Usually served in a cup, this coffee drink is often served with
+                                        cookies. Many people also enjoy a double espresso or also referred to as “doppio” with a spoon of brown sugar to soften the bitter taste. </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark text-center" >
+                            <img class="card-img-top" src="img/coffee-espresso.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">ESPRESSO</h5>
+                                <p class="card-text">The espresso serves as the  foundation to many coffee drinks but for the purpose of this post, a single espresso as the name suggest consists of 1 shot
+                                        (2 oz or 75ml) of espresso. Espresso is usually consumed as a standalone coffee drink after a meal. </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffee-irish.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">IRISH COFFEE</h5>
+                                <p class="card-text">For those cold winter months you might want to enjoy an Irish coffee. Irish coffee as you may have guessed includes Irish whiskey. It is usually
+                                        served in a special Irish coffee whiskey glas, very sweet and recommended to be prepared with actual Irish whiskey. Pre-heat the coffee glasses by pouring boiling 
+                                        water into them. Remove the water, place 1-2 sugar cubes in them and pour hot coffee over it (about 3/4 full). Stir the blend to dissolve the sugar and pour 1 shot 
+                                        (1 oz or 30 ml) of Irish whiskey on top. To finish off add 3 tablespoons of whipped cream. </p>
+                            </div>
+                        </div>     
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffee-piccolo-latte.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">PICCOLO LATTE</h5>
+                                <p class="card-text">Piccolo comes from the Italian and stands for “short”. Simply put a Piccolo latte is a shorter version of the Café latte and has usually 1
+                                        shot of espresso (2oz or 150ml) and steamed milk (150ml or 2 oz) poured on top. To finish off you may add micro foam on top.  </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark text-center" >
+                            <img class="card-img-top" src="img/coffee-machiatto.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MACCHIATO COFFEE</h5>
+                                <p class="card-text">Macchiato coffee is usually 1 shot of espresso topped off with milk foam. Many countries also serve a large macchiato which is 
+                                    nothing more than a double espresso shot with milk foam on top. Macchiato is mostly drunk by espresso lovers who want a bit of a sweeter taste. 
+                                    The milk foam helps to soften the bitter espresso taste.  </p>
+                            </div>
+                        </div>         
+                        <div class="card text-white bg-dark text-center" >
+                            <img class="card-img-top" src="img/coffee-melange.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MELANGE COFFEE </h5>
+                                <p class="card-text">Melange coffee is usually served in Austria and similar to a Cappuccino (without the chocolate powder on top). The main difference is often said to be the lighter roast of beans used when compared to a Cappuccino.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="card bg-light text-center" >
+                            <img class="card-img-top" src="img/coffee-moca.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MOCA COFFEE </h5>
+                                <p class="card-text">A moca coffee is usually a blend of cappuccino and a hot chocolate. It serves ideally as a dessert or light coffee drink for younger adults. 
+                                        Pour 1 shot of espresso into a cup or short latte glass and add 1 spoon of chocolate or cocoa powder in it and stir. Add steamed milk (5 oz or 150 ml) and 
+                                        top off with micro foam. To finish off sprinkle chocolate or cocoa powder on top </p>
+                            </div>
+                        </div>                   
+                        <div class="card text-white bg-dark text-center" >
+                            <img class="card-img-top" src="img/coffee-ristretto.jpeg"  alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">RISTRETTO COFFEE</h5>
+                                <p class="card-text">A Ristretto coffee is a coffee made with the same amount of coffee grounds as a espresso but half the amount of water. If you are using an 
+                                    automatic machine or capsule machine you may set this on your machine. If you are using a manual coffee maker you may simply use half of the water you normally
+                                        use. A Ristretto is usually very strong and not for everyone.  </p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark text-center" >
+                                <img class="card-img-top" src="img/coffee-viennese.jpeg"  alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">VIENNESE COFFEE </h5>
+                                    <p class="card-text">Viennese coffee is a very strong coffee mixed with whipped cream and topped off with chocolate powder or chocolate sauce.
+                                            Prepare two shots of espresso and pour into a cup or glass tumbler. Fill with whipped cream until the glass is full and top off with chocolate powder. </p>
+                                </div>
+                            </div>
+                            <!-- videos-->
+                            <iframe id="videos" width="370" height="315" src="https://www.youtube.com/embed/An6LvWQuj_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+                </div>
+                
+
+           
+            </div>
+
+  
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
